@@ -1,0 +1,10 @@
+services: Performance marketing, App campaigns, Creative testing
+
+Fondeadora is a Mexican banking app. For a finance app an install means little on its own. What counts is the person who opens an account and starts using it.
+
+We ran app campaigns built around that goal. Ads were written in everyday Mexican Spanish and each led with one clear benefit. We tracked the whole path from install to sign-up to first use, and judged every ad by how many people finished it. Creatives were refreshed regularly, and budget went to the ads and audiences that brought in active users.
+
+- App campaigns on Meta and Google
+- Ads in everyday Mexican Spanish
+- Tracking from install to first use
+- Regular creative refresh

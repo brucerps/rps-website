@@ -1,0 +1,10 @@
+services: Website, Booking pages, Mobile
+
+Intercape runs intercity coaches across South Africa and neighbouring countries. Most of its customers book on a phone, often on a slow connection, so the website has to be light and plain.
+
+We worked on the pages a traveller meets on the way to a ticket: routes, timetables and travel information. We put the details people look for first, such as departure points, times and luggage rules, and shortened the steps between choosing a route and booking. Pages were tested on small screens and slow connections, and written in plain words.
+
+- Route and timetable pages
+- Fewer steps from route to booking
+- Travel information in plain words
+- Tested on phones and slow connections

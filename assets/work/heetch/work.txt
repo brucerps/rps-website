@@ -1,0 +1,10 @@
+services: Video editing, Reels, Subtitles
+
+Heetch is a French ride-hailing app with a young, late-night crowd and a sense of humour. Its videos have to feel like the people who use it, not like a corporate ad.
+
+We edited short videos for the brand's social channels. Raw footage came in, and we cut it for pace: a strong first two seconds, quick cuts, sound that carries the joke, and on-screen text for people watching without audio. Every video was finished in upright format with subtitles, and where it helped we made a shorter cut of the same piece for stories and ads.
+
+- Short-form editing for reels and stories
+- Subtitles and on-screen text
+- Sound, music and pacing
+- Shorter cuts of each video for ads

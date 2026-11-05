@@ -1,0 +1,10 @@
+services: Performance marketing, App installs, Creative testing
+
+Kinedu is a baby development app from Mexico that gives parents daily activities suited to their child's age. Parents' needs change month by month, so one ad cannot speak to everyone.
+
+We ran app install campaigns grouped by the child's stage. Parents of a newborn saw different ads from parents of a one-year-old, each showing an activity that fits that age. We optimised for parents who started a trial and not only for installs, tested video against still creatives, and kept campaigns running in both Spanish and English.
+
+- Install campaigns grouped by the child's age
+- Optimised for trial starts
+- Video and still creative testing
+- Campaigns in Spanish and English

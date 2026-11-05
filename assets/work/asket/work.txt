@@ -1,0 +1,10 @@
+services: Performance marketing, Meta ads, Google ads
+
+Asket sells a permanent collection of wardrobe essentials and is open about what each piece costs to make. That story takes a moment to explain, which makes paid advertising harder than a discount push.
+
+We built the paid funnel around the story. People new to the brand first saw the reason to care: the garment, the fit and the thinking behind the price. People who had visited the site saw the product they had looked at, and past buyers saw the next piece to add. We wrote and tested ad copy and creatives in small batches, moved budget every week toward what was working, and kept the reporting to one page the team could act on.
+
+- Campaign structure across Meta and Google
+- Ad copy and creative testing in small batches
+- Retargeting and repeat-buyer campaigns
+- Weekly budget review and a one-page report
