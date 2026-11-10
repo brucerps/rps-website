@@ -130,13 +130,14 @@
         const tryExt = (exts) => { if (!exts.length) return res(null); const im = new Image(); im.onload = () => res(im); im.onerror = () => tryExt(exts.slice(1)); im.alt = ''; im.src = dir + name + '.' + exts[0]; };
         tryExt(['jpg', 'png']);
       });
-      const text = fetch(dir + 'work.txt', { signal: ac.signal, cache: 'no-cache' }).then((r) => (r.ok ? r.text() : '')).catch(() => '').then((raw) => {
+      // the text is written into the page itself (so search engines and readers without JavaScript see it); only fetch it when it is not
+      const text = q('.case-body').children.length ? Promise.resolve(true) : fetch(dir + 'work.txt', { signal: ac.signal, cache: 'no-cache' }).then((r) => (r.ok ? r.text() : '')).catch(() => '').then((raw) => {
         raw = raw.replace(/\r/g, '').trim();
         if (!raw || /^\s*</.test(raw)) return false;               // nothing there (or the host answered with a web page)
         const lines = raw.split('\n'); let site = '', services = [];
         while (lines.length) {
-          const m = /^(services|website)\s*:\s*(.*)$/i.exec(lines[0]); if (!m) break;
-          if (m[1].toLowerCase() === 'services') services = m[2].split(',').map((s) => s.trim()).filter(Boolean); else site = m[2].trim();
+          const m = /^(services|website|period|by|result|quote|quote_by)\s*:\s*(.*)$/i.exec(lines[0]); if (!m) break;
+          const key = m[1].toLowerCase(); if (key === 'services') services = m[2].split(',').map((s) => s.trim()).filter(Boolean); else if (key === 'website') site = m[2].trim();
           lines.shift();
         }
         const body = q('.case-body');

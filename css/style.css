@@ -908,3 +908,17 @@ section.block.case { gap: clamp(28px, 4vw, 44px); }
 
 /* ---------- version 25: the brief form can send straight to a Google Sheet. A hidden field catches automated spam */
 .hp { position: absolute !important; left: -9999px; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
+
+/* ---------- case studies: facts row, result, call to action (audit, Nov 2026) */
+.case-facts { display: flex; flex-wrap: wrap; gap: 10px 28px; margin: 6px 0 26px; padding: 14px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.case-facts div { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.case-facts dt { font-family: var(--mono); font-size: 10.5px; letter-spacing: .18em; text-transform: uppercase; color: var(--dust); }
+.case-facts dd { margin: 0; font-size: 15px; color: var(--white); }
+.case-result { margin-top: clamp(28px, 4vw, 48px); padding: clamp(20px, 3vw, 32px); border: 1px solid var(--line-2); border-radius: var(--r); background: rgba(13, 15, 22, .55); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); display: flex; flex-direction: column; gap: 12px; }
+.case-result .case-num { margin: 0; font-family: var(--display); font-weight: 800; font-size: clamp(26px, 3.4vw, 44px); letter-spacing: -.03em; line-height: 1.05; }
+.case-result blockquote { margin: 0; } .case-result blockquote p { margin: 0; font-size: clamp(17px, 1.5vw, 21px); line-height: 1.5; color: var(--white); }
+.case-result cite { display: block; margin-top: 8px; font-style: normal; font-family: var(--mono); font-size: 11.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--dust); }
+.case-result.pending p { margin: 0; color: var(--soft); font-size: 15px; }
+.case-cta { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; margin: clamp(22px, 3vw, 34px) 0; }
+.case-cta p { margin: 0; font-family: var(--display); font-weight: 700; font-size: clamp(20px, 2vw, 28px); letter-spacing: -.02em; }
+.form-privacy { margin: 4px 0 0; font-size: 13px; color: var(--dust); }
