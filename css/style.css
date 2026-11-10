@@ -952,3 +952,4 @@ section.block.case { gap: clamp(28px, 4vw, 44px); }
 .ins-card h2 { margin: 0; font-family: var(--display); font-weight: 700; font-size: 23px; line-height: 1.15; letter-spacing: -.02em; }
 .ins-card p { margin: 0; color: var(--soft); font-size: 15px; line-height: 1.55; }
 .ins-card .more { margin-top: auto; font-weight: 600; } .ins-card .more b { color: var(--fire); }
+.lede-plain { display: block; color: var(--white); font-weight: 600; margin-bottom: 8px; }
