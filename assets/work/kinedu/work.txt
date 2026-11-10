@@ -1,4 +1,5 @@
 services: Performance marketing, App installs, Creative testing
+by: Bruce N., our founder, as a freelancer before RPS
 
 Kinedu is a baby development app from Mexico that gives parents daily activities suited to their child's age. Parents' needs change month by month, so one ad cannot speak to everyone.
 

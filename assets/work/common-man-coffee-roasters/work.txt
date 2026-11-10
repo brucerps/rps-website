@@ -1,4 +1,5 @@
 services: Social media management, Content calendar, Community
+by: Bruce N., our founder, as a freelancer before RPS
 
 Common Man Coffee Roasters is a specialty roaster in Singapore with cafes, an online shop and a barista academy. Its social pages speak to three groups at once: cafe guests, people who brew at home and people in the coffee trade.
 

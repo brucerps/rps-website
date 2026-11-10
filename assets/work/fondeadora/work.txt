@@ -1,4 +1,5 @@
 services: Performance marketing, App campaigns, Creative testing
+by: Bruce N., our founder, as a freelancer before RPS
 
 Fondeadora is a Mexican banking app. For a finance app an install means little on its own. What counts is the person who opens an account and starts using it.
 

@@ -922,3 +922,4 @@ section.block.case { gap: clamp(28px, 4vw, 44px); }
 .case-cta { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; margin: clamp(22px, 3vw, 34px) 0; }
 .case-cta p { margin: 0; font-family: var(--display); font-weight: 700; font-size: clamp(20px, 2vw, 28px); letter-spacing: -.02em; }
 .form-privacy { margin: 4px 0 0; font-size: 13px; color: var(--dust); }
+.founder-note { margin: 0; max-width: 40em; color: var(--soft); font-size: clamp(16px, 1.3vw, 19px); line-height: 1.55; }
