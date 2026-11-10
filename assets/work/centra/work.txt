@@ -1,5 +1,4 @@
 services: Website, Page structure, Copy
-by: Bruce N., our founder, as a freelancer before RPS
 
 Centra is a Swedish e-commerce platform built for fashion and lifestyle brands. Its website speaks to busy people at those brands who need to understand quickly what the platform does and why it suits them.
 

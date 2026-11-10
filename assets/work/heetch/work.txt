@@ -1,5 +1,4 @@
 services: Video editing, Reels, Subtitles
-by: Bruce N., our founder, as a freelancer before RPS
 
 Heetch is a French ride-hailing app with a young, late-night crowd and a sense of humour. Its videos have to feel like the people who use it, not like a corporate ad.
 

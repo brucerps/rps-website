@@ -1,5 +1,4 @@
 services: Website, Booking pages, Mobile
-by: Bruce N., our founder, as a freelancer before RPS
 
 Intercape runs intercity coaches across South Africa and neighbouring countries. Most of its customers book on a phone, often on a slow connection, so the website has to be light and plain.
 

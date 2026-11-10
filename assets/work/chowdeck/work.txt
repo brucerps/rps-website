@@ -1,5 +1,4 @@
 services: Video editing, Reels, Captions
-by: Bruce N., our founder, as a freelancer before RPS
 
 Chowdeck is a food delivery app from Lagos with a loud, funny voice online. Its videos move fast and speak the way its customers speak.
 

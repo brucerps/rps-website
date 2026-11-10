@@ -1,5 +1,4 @@
 services: Social media management, Content calendar, Community
-by: Bruce N., our founder, as a freelancer before RPS
 
 Kcal delivers healthy meals and meal plans across the UAE. Its social pages have two jobs: make the food look worth ordering, and explain the plans simply.
 
