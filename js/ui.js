@@ -232,6 +232,7 @@
             const r = await fetch(cfg.formEndpoint, { method: 'POST', headers: { Accept: 'application/json' }, body: new URLSearchParams(Object.assign({}, data, { page: location.href })) });
             const j = await r.json().catch(() => null);
             if (!r.ok || (j && j.ok === false) || (sheet && !(j && j.ok))) throw new Error('not saved');   // the sheet must confirm that it saved the row
+            if (window.gtag) gtag('event', 'generate_lead', { form: 'contact' });
             showSent('Your brief is with mission control. We’ll get back to you within one working day.');
             return;
           } catch (err) {

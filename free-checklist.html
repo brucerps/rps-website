@@ -1,6 +1,13 @@
 <!doctype html>
 <html lang="en">
 <head>
+<!-- Google tag (GA4) -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-PG5DZQMM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Free website and social media audit checklist — Rock Papers Scissors</title>
@@ -136,7 +143,7 @@
   if(!n){st.textContent="Add your name.";N.focus();return}
   if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(m)){st.textContent="Check your email address.";E.focus();return}
   var cfg=window.RPS_CONFIG||{},data=new URLSearchParams({name:n,email:m,company:co,needs:"Free audit checklist",message:"Downloaded the free website and social media audit checklist."+(co?" Business: "+co:""),page:"free-checklist"});
-  if(cfg.formEndpoint){try{fetch(cfg.formEndpoint,{method:"POST",mode:"no-cors",body:data})}catch(x){}}
+  if(cfg.formEndpoint){try{fetch(cfg.formEndpoint,{method:"POST",mode:"no-cors",body:data})}catch(x){}}if(window.gtag)gtag("event","generate_lead",{form:"free-checklist"});
   st.textContent="Thank you. Your checklist is opening.";var a=document.createElement("a");a.href=PDF;a.download="";document.body.appendChild(a);a.click();a.remove();
   setTimeout(function(){location.href=PDF},400)});})();
 </script>
